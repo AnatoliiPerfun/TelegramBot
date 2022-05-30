@@ -52,7 +52,6 @@ public class Bot {
             if(buttons == null) {
                 return;
             }
-
             InlineKeyboardButton button = buttons[0][0];
             Long chatId = message.chat().id();
             String senderName = message.from().firstName();
